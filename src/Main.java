@@ -1,4 +1,3 @@
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
@@ -46,7 +45,6 @@ public class Main {
 			break;
 		}
 		
-		System.out.println("本项目由程浩然  李琳琳   蔡豪 完成");
 	}
 	
 	

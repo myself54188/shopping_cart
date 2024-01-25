@@ -43,7 +43,6 @@ public class Initialization {
             fileWriter1.write(Goods);
             fileWriter2.write(Name);
         } catch (IOException e) {
-            System.out.println(e);
 
         } finally {
             try {

@@ -1,4 +1,3 @@
-
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -16,7 +15,7 @@ import java.util.Scanner;
  *
  *	void create(String[] name, String[] num, String[] price, String path)
  *	将三个数组组合传入path的txt文件中
- *  
+ *
  *  void Modify_quantity(String name, int num, String path)
  *  改变商品数量
  *
@@ -30,12 +29,6 @@ import java.util.Scanner;
  *	计算价格
  */
 public class Tool {
-	/*
-	public static final String WAREHOUSE_PATH = "E:\\java\\Shopping_Cart\\src\\shopping__Cart\\Txt_Document\\Goods_list.txt"; // 全部商品名单
-	public static final String ADMINISTRATORS_PATH = "E:\\java\\Shopping_Cart\\src\\shopping__Cart\\Txt_Document\\Name_list.txt"; // 管理员名单
-	public static final String SHOPPING_CART_PATH = "E:\\java\\Shopping_Cart\\src\\shopping__Cart\\Txt_Document\\order_for_goods_" + account + ".txt"; // 订单名单
-	public static final String COMMODITY_PATH = "E:\\java\\Shopping_Cart\\src\\Shopping_Cart\\Txt_Document\\Shopping_Cart_" + account + ".txt"; // 购物车名单
-	*/
 	// 展示库存
 	protected static void show(String path) {
 			char[] arr = new char[1024];
