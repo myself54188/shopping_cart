@@ -10,7 +10,7 @@ public class Main {
 		/*
 		 * 测试辅助输出
 		 */
-		System.out.println("管理员账号密码：");
+		System.out.println("管理员账号密码： ");
 		System.out.println("5001220103 5001220103");
 		System.out.println("5001220101 5001220101");
 		System.out.println("5001220126 5001220126");
